@@ -50,6 +50,35 @@ body{
     height: 8px;
     border-radius: 50%;
     background-color: #ffffff;
+}
 
+.hand{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
 
+.hand i{
+    position: absolute;
+    background-color: var(--clr);
+    width: 4px;
+    height: var(--h);
+    border-radius: 8px;
+     
+}
+
+#hour {
+  --clr: #F83A5F;
+  --h: 84px;
+}
+
+#min {
+  --clr: #ffffff;
+  --h: 94px;
+}
+
+#sec {
+  --clr: #1D1D1D;
+  --h: 110px;
 }
